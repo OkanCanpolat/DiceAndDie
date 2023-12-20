@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd85eb83a7e8f349afb33c36e9fd8bc, type: 3}
+  m_Name: ResistenceWater
+  m_EditorClassIdentifier: 
+  description: + %20 Water Resistence
+  contentSprite: {fileID: 21300000, guid: cbbbf4d6b31b2e04c9b84d667d8a1d4f, type: 3}
+  OnFlipClip: {fileID: 0}
+  OnClickClip: {fileID: 8300000, guid: 48616f3e524f56642bd200a04947771c, type: 3}
+  Type: 5
+  incrementAmount: 20

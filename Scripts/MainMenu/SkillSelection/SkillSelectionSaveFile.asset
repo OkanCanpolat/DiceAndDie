@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3ea76f7a33e9874593281c74a99b4af, type: 3}
+  m_Name: SkillSelectionSaveFile
+  m_EditorClassIdentifier: 
+  SelectedSkills:
+  - {fileID: 11400000, guid: cee6172a3dab60147a942bf7bc1c1fc3, type: 2}
+  - {fileID: 11400000, guid: cee6172a3dab60147a942bf7bc1c1fc3, type: 2}
+  - {fileID: 11400000, guid: cee6172a3dab60147a942bf7bc1c1fc3, type: 2}
+  - {fileID: 11400000, guid: cee6172a3dab60147a942bf7bc1c1fc3, type: 2}
+  - {fileID: 11400000, guid: cee6172a3dab60147a942bf7bc1c1fc3, type: 2}
+  - {fileID: 11400000, guid: d8bdb1102d2d26b418331133dca012b1, type: 2}

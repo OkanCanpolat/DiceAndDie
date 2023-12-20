@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f15528ecdadfd04408a4e63f1c028bfc, type: 3}
+  m_Name: ShieldBash
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 0}
+  SkillIcon: {fileID: 0}
+  RequiredMana: 3
+  turnConsume: 0
+  animationParameterName: Stun
+  skillCompleteTime: 4
+  turnCount: 1
+  stunChance: 100
+  damage: 15
+  impactSprite: {fileID: 21300000, guid: 5fb1090912cd7ed4b8b55f6839899f5f, type: 3}
+  impactDescription: {fileID: 3565965405908415893, guid: 1b5ef29f24d2ae04c9887beee105252b,
+    type: 3}

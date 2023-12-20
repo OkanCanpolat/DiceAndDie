@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92212c0511f80e4c91262d59e2882a6, type: 3}
+  m_Name: Shower
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 5458843479214637142, guid: d95af7256fccb4f4b995c6b011106ca3,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 9ba915d55a3c4c2429a972d1e439f7a2, type: 3}
+  RequiredMana: 3
+  turnConsume: 0
+  animationParameterName: MagicAttackRH
+  skillCompleteTime: 5
+  Prefab: {fileID: 1023447171018200, guid: 88c08069e7f114f4d892a312d3173637, type: 3}
+  waterDamage: 35
+  selfHeal: 30
+  wetTurnCount: 3
+  impactSprite: {fileID: 21300000, guid: 0a69f390170068f428a68cad7c5c9b19, type: 3}
+  impactDescription: {fileID: 3164680992876106788, guid: 4c14be23df563f1479e0637627df9c1d,
+    type: 3}

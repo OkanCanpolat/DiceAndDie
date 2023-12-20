@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24df36faf040c343aad11997736c444, type: 3}
+  m_Name: HealContent
+  m_EditorClassIdentifier: 
+  description: Restore 25 Health
+  contentSprite: {fileID: 21300000, guid: 0b5ab9ff26d239c4bbd9cdcc3a0e5eac, type: 3}
+  OnFlipClip: {fileID: 8300000, guid: 3fb4e1677c4243e449314333940916b8, type: 3}
+  OnClickClip: {fileID: 8300000, guid: 479708ff62599cc42bc3cda3197a092c, type: 3}
+  healAmount: 25

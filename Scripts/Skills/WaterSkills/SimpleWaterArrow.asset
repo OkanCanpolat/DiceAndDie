@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4844558fccfec0b41aee032744b4e199, type: 3}
+  m_Name: SimpleWaterArrow
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 152291528617423459, guid: 56608858696bb40409987b173204e2a6,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 8018cb440d999bb49878aa2c422d1647, type: 3}
+  RequiredMana: 2
+  turnConsume: 0
+  animationParameterName: ArrowShot
+  skillCompleteTime: 6
+  shotPrefab: {fileID: 1283962362146648, guid: 057f9d9f2d039e24aad621f15653fd70, type: 3}
+  buffPrefab: {fileID: 0}
+  weaponPrefab: {fileID: 1413721471125276, guid: c9e989eeba1f13d449add5af04b24014,
+    type: 3}
+  waterDamage: 20
+  turnCount: 2
+  impactSprite: {fileID: 21300000, guid: 0a69f390170068f428a68cad7c5c9b19, type: 3}
+  impactDescription: {fileID: 3164680992876106788, guid: 4c14be23df563f1479e0637627df9c1d,
+    type: 3}

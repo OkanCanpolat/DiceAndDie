@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d80a9e402112d4da0cd4e418e1a496, type: 3}
+  m_Name: HammerStrike
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 4600319867775433471, guid: d57733b729bab4846bd922917c230962,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 1f5dbaa4e5820154cbd5358b16db3124, type: 3}
+  RequiredMana: 5
+  turnConsume: 0
+  animationParameterName: RHSpell2
+  skillCompleteTime: 4
+  effectPrefab: {fileID: 8298813590846867463, guid: cd1ade89311044128dce6a49c7c25078,
+    type: 3}
+  damage: 50
+  damageDelayMS: 1
+  effectDestroyTime: 4
+  bleedChange: 60
+  bleedDamage: 10
+  turnCount: 3
+  impactSprite: {fileID: 21300000, guid: a053c9a621ff1a34b831adfd62c98904, type: 3}
+  impactDescription: {fileID: 8774351356217959525, guid: edd1be2d896eaea40bb37281172263fc,
+    type: 3}

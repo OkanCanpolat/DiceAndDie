@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e26f9946d5e784fb6766bec947af89, type: 3}
+  m_Name: HearthOfBattle
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 4624269525091443718, guid: 6771d2b6e2740ca4b85d30eb14bbe83e,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: d01106fe70b000f4a987c409fbe3d599, type: 3}
+  RequiredMana: 7
+  turnConsume: 0
+  animationParameterName: TauntWE2X
+  skillCompleteTime: 7
+  effectPrefab: {fileID: 2145615491358907394, guid: 8640e9f0a1c94db7a18b226900f27aed,
+    type: 3}
+  turnCount: 3
+  healPercentage: 30
+  damagePercentage: 25
+  effectDestroyTime: 6
+  lightAbsorbTime: 1
+  lightAbsorbedTimeMS: 4000
+  enlightenmentTime: 2
+  enlightenmentImpactDescription: {fileID: 4443160527043676396, guid: d0acc8033b011b342a0a0caead0d776e,
+    type: 3}
+  enlightenmentImpactSprite: {fileID: 21300000, guid: 79acd8a805130f140b713a6f3e32257c,
+    type: 3}
+  blindImpactDescription: {fileID: 192356606716642831, guid: d0c09fd114eb5674ca7120bb8f1b2cce,
+    type: 3}
+  blindImpactSprite: {fileID: 21300000, guid: 4f68b5728355ee744aa5d51526e1322b, type: 3}

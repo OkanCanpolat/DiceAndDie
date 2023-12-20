@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d19bc6cf416c846ba241e897c9f26d, type: 3}
+  m_Name: BurnAttack
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 4454858392682116962, guid: 7149671ac81e72e4dad1b0309fd4289f,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 48025fd840e59ee4db8afc712eda600e, type: 3}
+  RequiredMana: 3
+  turnConsume: 0
+  animationParameterName: MagicAttackRH
+  skillCompleteTime: 5
+  Prefab: {fileID: 1209946497609482, guid: 5cb609d09675a794bb859c9d81e73dad, type: 3}

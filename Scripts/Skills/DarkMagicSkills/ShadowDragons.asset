@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22043adf37f50bf40828e759fbce5644, type: 3}
+  m_Name: ShadowDragons
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 2307865277234392752, guid: 6140f85a0d4c4164aa9baff420520bcd,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 912100a0632a4e94998cca0289e21367, type: 3}
+  RequiredMana: 3
+  turnConsume: 0
+  animationParameterName: ShadowArrow
+  skillCompleteTime: 6
+  shotPrefab: {fileID: 1435011518601658, guid: 517ba164117be0b46a1674f7ff177fdc, type: 3}
+  buffPrefab: {fileID: 1036689082011148, guid: 94c18defcddb1b24d99b2abb4d46a284, type: 3}
+  weaponPrefab: {fileID: 0}
+  trueDamage: 30
+  selfHeal: 20
+  selfHealChange: 70

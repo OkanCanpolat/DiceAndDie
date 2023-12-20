@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a80f63a05855cb478e43c65051706f8, type: 3}
+  m_Name: Supplies
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 8170033363053862834, guid: 28f5ff50c3bf78e4c908fce1d4a2728a,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: fe97f873de74381469b041ce407628c2, type: 3}
+  RequiredMana: 2
+  turnConsume: 0
+  animationParameterName: TauntWE2X
+  skillCompleteTime: 4
+  effectPrefab: {fileID: 5783119988650415345, guid: e68f7feaa3064675ac1b698ae8652ef3,
+    type: 3}
+  effectDestroyTime: 3
+  supplyDelayMS: 3
+  keyAmount: 40
+  foodAmount: 2
+  effectPosition: 3

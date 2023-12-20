@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9942897f98c43f24ab4ce365a56ec46d, type: 3}
+  m_Name: DarkForm
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 1315742397430520639, guid: ed9454912208adf4a888968ee9278486,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: de3a4653b45a58749a6185ab8de1852f, type: 3}
+  RequiredMana: 5
+  turnConsume: 0
+  animationParameterName: Taunt
+  skillCompleteTime: 6
+  Prefab: {fileID: 1260779564003926, guid: d8cb1464cce2e034692f1cb8d74e0d85, type: 3}
+  selfDamage: 60
+  materials:
+  - {fileID: 2100000, guid: db6900888f7d7394b90480b62509a0c2, type: 2}
+  - {fileID: 2100000, guid: db6900888f7d7394b90480b62509a0c2, type: 2}
+  - {fileID: 2100000, guid: 5213c04354988254295f4e9ad51c39d0, type: 2}
+  - {fileID: 2100000, guid: 5213c04354988254295f4e9ad51c39d0, type: 2}
+  - {fileID: 2100000, guid: 5213c04354988254295f4e9ad51c39d0, type: 2}
+  darkFormImpactSprite: {fileID: 21300000, guid: a28d6dddc93a8ab44b03214540575ca2,
+    type: 3}
+  darkFormDescription: {fileID: 3681785665501715758, guid: 2ea32819cc563f64ba9552e908f14506,
+    type: 3}
+  curseImpactSprite: {fileID: 21300000, guid: d0daad54d701b9048a0ca044acacf696, type: 3}
+  curseImpactDescription: {fileID: 3681785665501715758, guid: 2ea32819cc563f64ba9552e908f14506,
+    type: 3}
+  selfCursePercentage: 50
+  enemyCursePercentage: 100
+  turnCount: 3

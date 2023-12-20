@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0445113815ca74a838594ced42ca9e, type: 3}
+  m_Name: GasBomb
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 9217365645263197640, guid: 7b8b567fd74a3e04c86faf65e61d70e1,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: f0aefb8ef6842c14aa953265986d7b4b, type: 3}
+  RequiredMana: 5
+  turnConsume: 0
+  animationParameterName: TauntWE2X
+  skillCompleteTime: 4
+  effectPrefab: {fileID: 1000010387797694, guid: f62d4a767e68ad54d96bd59e959ce260,
+    type: 3}
+  poisoningEffectPrefab: {fileID: 1325434175389858, guid: 5daa595b8a38529459b3ea35d0eff8cc,
+    type: 3}
+  impactDelayMS: 2
+  poisonDamage: 5
+  turnCount: 4
+  poisoningTurnCount: 3
+  poisoningDoubleChance: 50
+  playerPoisoningStackChance: 25
+  enemyPoisoningStackChance: 100
+  gasBombImpactSprite: {fileID: 21300000, guid: ed31d8bc82bae0649a4cc0d21d7b2cae,
+    type: 3}
+  gasBombImpactDescription: {fileID: 5854443356563340045, guid: 1cff515e2b02f9b46a9192a8cb2a8277,
+    type: 3}
+  poisoningImpactSprite: {fileID: 21300000, guid: e082f1c889b9f0949a798cc48e5264f1,
+    type: 3}
+  poisoningImpactDescription: {fileID: 8691568330401641869, guid: 914caec7c088f4944bda30520399f677,
+    type: 3}

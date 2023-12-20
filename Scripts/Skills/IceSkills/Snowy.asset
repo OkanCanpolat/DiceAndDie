@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9ef48a255a2124ea22b65ee800d984, type: 3}
+  m_Name: Snowy
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 2886608130193314328, guid: 5d6b3f9923902d644aed59ff2db1cd47,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: fc1aee381f9731149b1a0d9d6210573d, type: 3}
+  RequiredMana: 6
+  turnConsume: 0
+  animationParameterName: TauntWE2X
+  skillCompleteTime: 4
+  effectPrefab: {fileID: 1000012194191502, guid: 3ed5590c86d8fe147898474894897932,
+    type: 3}
+  snowExplosionEffectPrefab: {fileID: 1963135758778834, guid: ecff7bf33542cfb4f866e0b7eebdbdb8,
+    type: 3}
+  snowBigExplosionEffectPrefab: {fileID: 1927186110770264, guid: 3535cb0b96aecfb4b987e4c3e4e7d90b,
+    type: 3}
+  impactDelayMS: 2
+  turnCount: 6
+  explosionDamage: 20
+  bigExplosionDamage: 50
+  stunChance: 50
+  explosionEachXTurn: 3
+  playerFreezeChance: 25
+  enemyFreezeChance: 100
+  stunTurnCount: 1
+  snowyImpactSprite: {fileID: 21300000, guid: fc1aee381f9731149b1a0d9d6210573d, type: 3}
+  snowyImpactDescription: {fileID: 7585790208233438079, guid: 1928adb74020dca4a93aeac673dc5fd4,
+    type: 3}
+  freezingImpactSprite: {fileID: 21300000, guid: f0c245d89eb7ade4b867833d89a66328,
+    type: 3}
+  freezingImpactDescription: {fileID: 6306113604437447089, guid: 63d23b9f20312ff4baf8422280cb6243,
+    type: 3}
+  stunImpactSprite: {fileID: 21300000, guid: 5fb1090912cd7ed4b8b55f6839899f5f, type: 3}
+  stunImpactDescription: {fileID: 3565965405908415893, guid: 1b5ef29f24d2ae04c9887beee105252b,
+    type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230fbda9612112244b5db36edda69098, type: 3}
+  m_Name: UnquenchableLight
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 3489514429382763899, guid: dadaba0b438f78246968b4e258a59694,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 916e1e4086a1b0f4483feae59d285e8a, type: 3}
+  RequiredMana: 7
+  turnConsume: 0
+  animationParameterName: TauntWE2X
+  skillCompleteTime: 4
+  sunLightPrefab: {fileID: 1000012219642646, guid: be2aa558801a9d441bc9afa9f54f54d9,
+    type: 3}
+  healEffectPrefab: {fileID: 100004, guid: 9a3dc2ad4dbe5410b83ca5adc0144fc0, type: 3}
+  damageEffectPrefab: {fileID: 100000, guid: df5a6d1d9164f4db8a2e6e55b62c91af, type: 3}
+  explosionEffectPrefab: {fileID: 100000, guid: df5a6d1d9164f4db8a2e6e55b62c91af,
+    type: 3}
+  turnCount: 3
+  impactDelayMS: 2
+  minDamage: 20
+  maxDamage: 30
+  minWithBurnDamage: 30
+  maxWithBurnDamage: 50
+  missingHealPercentage: 25
+  unquenchableLightImpactSprite: {fileID: 21300000, guid: 63cb43a55174b7549b01b225c700fa4a,
+    type: 3}
+  unquenchableLightImpactDescription: {fileID: 8961215288630735956, guid: a0c66f3e89e745546bf8587594824ed3,
+    type: 3}
+  burningLightImpactSprite: {fileID: 21300000, guid: a701eaa02915c794796463d6eb6a829a,
+    type: 3}
+  burningLightImpactDescription: {fileID: 684389673817095567, guid: 70a6079294e403c44a8c7ad4f6cf771d,
+    type: 3}
+  effectInstantiateHeightOffset: 3

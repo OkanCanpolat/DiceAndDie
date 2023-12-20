@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f05643e4598ac478166a61a2d1a467, type: 3}
+  m_Name: IonStrike
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 7436192621363119338, guid: 7001965213f0d0b4ab622c257b72fe5f,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: b8f702607b9e7464a9cac83ba10e5c47, type: 3}
+  RequiredMana: 4
+  turnConsume: 0
+  animationParameterName: RHSpell2
+  skillCompleteTime: 6
+  effectPrefab: {fileID: 8032841063741016393, guid: 16f1d7f2dd2145348b4b3af98d0aeea7,
+    type: 3}
+  iceDamage: 40
+  damageDelayMS: 3000
+  effectDestroyTime: 4
+  freezeTurnCount: 3
+  stunImpactSprite: {fileID: 21300000, guid: 5fb1090912cd7ed4b8b55f6839899f5f, type: 3}
+  stunImpactDescription: {fileID: 3565965405908415893, guid: 1b5ef29f24d2ae04c9887beee105252b,
+    type: 3}
+  freezeImpactSprite: {fileID: 21300000, guid: 4fb0ddab0b459b1498fddc7d4b507d38, type: 3}
+  freezeImpactDescription: {fileID: 4887492619916900825, guid: c88ff3fccb558204caa3f2ef86cb75a4,
+    type: 3}

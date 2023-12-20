@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0076e24f79108624dbbbe5c7f1681453, type: 3}
+  m_Name: BloodPool
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 1424266491274168478, guid: 1bb04d82dce652d4cb828e8036117894,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: b9afb4433ba5f694a8471311dbeed6bb, type: 3}
+  RequiredMana: 8
+  turnConsume: 0
+  animationParameterName: Taunt
+  skillCompleteTime: 6
+  Prefab: {fileID: 1125883288892754, guid: 065fe4dbb1a1eb34a9936d42ffd74293, type: 3}
+  selfHeal: 40
+  damage: 100
+  lifeStealChance: 30
+  damageEffect: {fileID: 1514282284419572, guid: 1ae8a51fac8854e4b9a43eb94d0b38f8,
+    type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62f7594ec54319459a40306e9c104f2, type: 3}
+  m_Name: WaterRefresh
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 8890732463594071952, guid: 81145ca9dfd95114e854add34c73434b,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: cf129a4115c254c4c973ca7150d1b3ca, type: 3}
+  RequiredMana: 1
+  turnConsume: 0
+  animationParameterName: Taunt
+  skillCompleteTime: 6
+  Prefab: {fileID: 1272224181608010, guid: ba32d6ffbec06034697cddca0390ce64, type: 3}
+  healAmount: 25

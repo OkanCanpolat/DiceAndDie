@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755a076aa3bbf14448f9541f5c40917b, type: 3}
+  m_Name: BasicAttackDamageEnhancer
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 0}
+  SkillIcon: {fileID: 0}
+  RequiredMana: 3
+  turnConsume: 0
+  animationParameterName: Spell1
+  skillCompleteTime: 4
+  turnCount: 3
+  skillEffect: {fileID: 7155335147208632822, guid: 97c43495f80a3244fad1301dfafbe252,
+    type: 3}
+  effectLifetime: 3
+  damageBonus: 15
+  impactSprite: {fileID: 21300000, guid: 6c0ffdb69f061fc44a602518ad321153, type: 3}
+  impactDescription: {fileID: 7351584598053776343, guid: 9af3fadf37e20e44b94d859ea32e95f1,
+    type: 3}

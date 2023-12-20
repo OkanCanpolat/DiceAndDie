@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7375fe1d92c117c4ebb238f717b7091a, type: 3}
+  m_Name: FireWeaponBuff
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 6398460315460926461, guid: 2f8e28106177bb9438182a02538c6de9,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 8e0bc87a0991fb646ad0f0834130139d, type: 3}
+  RequiredMana: 6
+  turnConsume: 0
+  animationParameterName: Taunt
+  skillCompleteTime: 6
+  Prefab: {fileID: 1563956951038392, guid: 52cb252e431a6e14c9255cebc97003f8, type: 3}
+  weaponDamageBonus: 20
+  burnDamage: 15
+  burnChance: 20
+  burnTurnCount: 3
+  buffTurnCount: 3
+  weaponBuff: {fileID: 3479438537060050827, guid: 762ca26617a8e814caf51ec9cef6393e,
+    type: 3}
+  burnImpactSprite: {fileID: 21300000, guid: e987f2a8939a0e4448d7d1b9bea46e55, type: 3}
+  burnImpactDescription: {fileID: 3234643114584508692, guid: 96d9671c3eba2614498b5a056d6328c5,
+    type: 3}
+  buffImpactSprite: {fileID: 21300000, guid: af3f249b497301e41970472806f3e2de, type: 3}
+  buffImpactDescription: {fileID: 6045117851075097832, guid: 77a9f55393c2c0c418a01d8095253ccd,
+    type: 3}

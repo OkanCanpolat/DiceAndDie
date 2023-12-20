@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4db33567739bf43b69e570bcb10ee9, type: 3}
+  m_Name: SimpleDarkArrow
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 2965960645985002906, guid: 41e599a099ab11146bee830173d1caa7,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 9406ed04204231a42b39c8ec22844390, type: 3}
+  RequiredMana: 1
+  turnConsume: 0
+  animationParameterName: ArrowShot
+  skillCompleteTime: 6
+  shotPrefab: {fileID: 1552796404646652, guid: 98c4a20a4d3c3a4468b5ec6b7fa1e36b, type: 3}
+  buffPrefab: {fileID: 1016216053323692, guid: 99c1b5717fcabaf4981f2ef6064269a7, type: 3}
+  weaponPrefab: {fileID: 1522756039735234, guid: 73d4ce3bf93d3a14e9b5dcbbb5304611,
+    type: 3}
+  trueDamage: 30
+  selfDamage: 10

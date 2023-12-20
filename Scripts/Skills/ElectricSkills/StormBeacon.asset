@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7762115ad134157429d6fe74717161e0, type: 3}
+  m_Name: StormBeacon
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 9218716742718375643, guid: 32104460df015b040af5c87ba2f54ff5,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 03dc9800b2cb3044d9dd10ef3c1df855, type: 3}
+  RequiredMana: 7
+  turnConsume: 0
+  animationParameterName: TauntWE2X
+  skillCompleteTime: 7
+  effectPrefab: {fileID: 400148479757658013, guid: 7d04e6d09afc4d6fb259926b5ec87e4b,
+    type: 3}
+  effectDestroyTime: 5
+  damageCount: 5
+  damagePerStorm: 20
+  damagePlayerPercent: 33
+  criticalChancePercentage: 50
+  stormDelayMS: 2000
+  delayBetweenStormsMS: 900
+  environmentColor: {r: 0, g: 0.53333336, b: 1, a: 1}

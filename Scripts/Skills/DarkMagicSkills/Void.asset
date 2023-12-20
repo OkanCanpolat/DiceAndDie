@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75d2aa4f43a533f4d909f40651b654bc, type: 3}
+  m_Name: Void
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 1814059878638320690, guid: 3275eceb5c7209e46a7497dcce173c3e,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 11765a167c9f4144298a985d01b1f830, type: 3}
+  RequiredMana: 4
+  turnConsume: 0
+  animationParameterName: TauntWE
+  skillCompleteTime: 3
+  effectPrefab: {fileID: 3086149438356883364, guid: 1a38054d69744dccb9f963b3e12638a8,
+    type: 3}
+  effectDestroyTime: 3
+  skillUsageDelayMS: 3000
+  skillInstantiateHeight: 2

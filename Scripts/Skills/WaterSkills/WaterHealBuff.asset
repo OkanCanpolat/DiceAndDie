@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c081bad66fbcfaf4291e5039f3992e6b, type: 3}
+  m_Name: WaterHealBuff
+  m_EditorClassIdentifier: 
+  SkillDescription: {fileID: 3224765446594631387, guid: d5ed71b41dcf3c84db9b6a04e0e83a66,
+    type: 3}
+  SkillIcon: {fileID: 21300000, guid: 85c50e3fac4a9134d8b8d22a5111d61f, type: 3}
+  RequiredMana: 4
+  turnConsume: 0
+  animationParameterName: Taunt
+  skillCompleteTime: 6
+  effectPrefab: {fileID: 1117525931979808, guid: 65e3377535a7162468c722f1fdeb12cc,
+    type: 3}
+  selfHeal: 35
+  turnCount: 3
+  healPerTurn: 15
+  turnBuff: {fileID: 123102804204469340, guid: 3c51835e001efe94387b8ac03394dd5c, type: 3}
+  buffPosition: 2
+  impactSprite: {fileID: 21300000, guid: 85c50e3fac4a9134d8b8d22a5111d61f, type: 3}
+  impactDescription: {fileID: 2705751492620206321, guid: 23cef5ae83ba6f641a84a2281230ade3,
+    type: 3}
